@@ -1,0 +1,17 @@
+[Unit] 
+
+Description=KTH Biblioteket DB Backup Service 
+
+  
+
+[Timer] 
+
+OnCalendar=*-*-* *:00:00 
+
+Unit=kthb-backup.service 
+
+  
+
+[Install] 
+
+WantedBy=timers.target 

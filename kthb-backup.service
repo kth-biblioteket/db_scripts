@@ -1,0 +1,11 @@
+[Unit] 
+
+Description=KTH Biblioteket DB Backup Service 
+
+  
+
+[Service] 
+
+Type=oneshot 
+
+ExecStart=/local/scripts/db_backups.sh 
