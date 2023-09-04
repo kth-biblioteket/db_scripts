@@ -1,9 +1,10 @@
 # KTHB Scripts för databaser
 Backup/restore
 
-## Funktioner
+## Beskrivning
 Shell-script som körs via systemd service
 
+### Skapa systemd service
 sudo nano /etc/systemd/system/kthb-backup.service
 sudo nano /etc/systemd/system/kthb-backup.timer
 
@@ -15,7 +16,7 @@ sudo systemctl status kthb-backup.timer
 
 sudo journalctl -u kthb-backup.service 
 
-###
+### Zcat
 
 zcat: cat to view compressed file 
 
@@ -25,7 +26,7 @@ zless for less, zmore for more: to view the file in pages
 
 zdiff: diff to see the difference between two compressed files 
 
-####
+#### Skapa folders/filer
 Skapa  
 
 sudo mkdir /local/db_backups 
