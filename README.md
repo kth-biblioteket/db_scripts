@@ -26,7 +26,7 @@ zless for less, zmore for more: to view the file in pages
 
 zdiff: diff to see the difference between two compressed files 
 
-#### Skapa folders/filer  
+### Skapa folders/filer  
 
 sudo mkdir /local/db_backups 
 
@@ -34,7 +34,7 @@ sudo mkdir /local/scripts
 
 sudo nano /local/scripts/db_backups.sh
 
-##### Gör exekverbar
+#### Gör exekverbar
 
 sudo chmod +x db_backups.sh 
 etc.
